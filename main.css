@@ -1,0 +1,41 @@
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+#popover {
+  padding: 15px;
+  border: none;
+  background: rgb(104, 18, 18);
+  color: #fff;
+  border-radius: 5px;
+  margin-top: 300px;
+}
+
+#popover:focus {
+  outline: 2px solid rgb(187, 187, 187);
+}
+
+.popover_modal {
+  border: 2px solid rgb(187, 187, 187);
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  max-width: 300px;
+  position: absolute;
+  border-radius: 5px;
+}
+
+.popover_title {
+  background: rgb(219, 219, 219);
+  padding: 3px;
+}
+
+.popover_text {
+  padding: 3px;
+}
+
+.hidden {
+  display: none;
+}
+
